@@ -1,0 +1,179 @@
+.registration_main{
+    display: flex;
+    justify-content: center;
+    height: 52rem;
+    flex-wrap: wrap;
+/* background-color: #828282; */
+}
+.form_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    height: 85%;
+    width: 100%;
+    /* background-color: #341e1e; */
+}
+
+
+.user_infos-group{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70%;
+    width: 100%;
+margin-bottom: 1.5rem;
+border-top-right-radius: 23px;
+    border-radius: 10px 150px;
+}
+
+.form_registration{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 65%;
+    width: 53%;
+    background-color: #0b0e1a;
+border-top-right-radius: 23px;
+    border-radius: 10px 150px;
+
+}
+
+
+.main_user_infos_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    height: 99%;
+    width: 35%;
+    /* background-color: #68cf23;  */
+}
+
+.main_user_infos_1 input{
+height: 30%;
+width:95% ;
+outline: none;
+    margin: 5px 0;
+    padding:10px;
+
+}
+
+.main_user_infos_1 label{
+color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.main_user_infos_2 label{
+color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_user_infos_1 input{
+color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_user_infos_2 input{
+color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.main_user_infos_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 10px;
+    height: 99%;
+    width: 35%;
+    /* background-color: #68cf23;  */
+}
+
+.main_user_infos_2 input{
+height: 30%;
+width:95% ;
+outline: none;
+    margin: 5px 0;
+        padding:10px;
+}
+
+.validate{
+    height: 25%;
+    width: 15%;
+    background-color: rgb(234, 90, 90);
+    cursor: pointer;
+}
+
+.btn_register{
+    height: 12%;
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+border: none;
+color: rgb(0, 0, 0);
+font-size: 22px;
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+}
+.problem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+width: 70%;
+    /* background-color: rgb(201, 11, 11); */
+}
+.problem a{
+    color: rgb(219, 219, 219);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.mdp_oublie{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 55%;
+    /* background-color: rgb(11, 65, 201); */
+}
+.line_mdp_oublie{
+    height: 3%;
+    width: 41%;
+    background-color: rgb(238, 238, 238);
+}
+
+
+
+.deja_inscrit{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 55%;
+    /* background-color: rgb(11, 201, 30); */
+}
+
+.line_deja_inscrit{
+    height: 3%;
+    width: 25%;
+    background-color: rgb(238, 238, 238);
+}
+
+
